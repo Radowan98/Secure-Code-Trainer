@@ -2,7 +2,7 @@
 
 **Secure Code Trainer** is an interactive Python + React game to practise secure coding.  
 You’ll be shown Python functions and must decide whether they are **vulnerable** or **safe**.  
-Earn points for correct answers — and if you're wrong, you'll learn why, and see a secure version.
+Earn points for correct answers, and if you're wrong, you'll learn why and see a secure version.
 
 ---
 
