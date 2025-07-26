@@ -1,0 +1,25 @@
+# ========== Global ==========
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+
+# ========== Python Backend ==========
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.egg-info/
+.env
+backend/__pycache__/
+backend/.env
+
+# ========== React Frontend ==========
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+
+# Optional IDE/Editor Settings
+.vscode/
+.idea/

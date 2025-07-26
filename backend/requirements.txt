@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+python-dotenv  # For loading environment variables
+requests       # For API calls (JSONBin)
+pytest

@@ -1,0 +1,113 @@
+/* Reset margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a default font for the app */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;  /* Light background color */
+    color: #333;  /* Dark text for better readability */
+    line-height: 1.6;
+  }
+  
+  /* Style for headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+  }
+  
+  /* Center align all text inside h1 (Game title) */
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+  }
+  
+  /* Add some padding around the body for spacing */
+  .container {
+    padding: 20px;
+  }
+  
+  /* Style for buttons */
+  button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;  /* Green background */
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;  /* Slightly darker green on hover */
+  }
+  
+  button:disabled {
+    background-color: #ccc;  /* Disabled buttons are gray */
+    cursor: not-allowed;
+  }
+  
+  /* Style for inputs (nickname) */
+  input {
+    padding: 10px;
+    font-size: 1.2em;
+    margin-top: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Add space between elements */
+  div {
+    margin-bottom: 20px;
+  }
+  
+  /* Center the content of the app */
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Style for the leaderboard */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  li {
+    font-size: 1.5em;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  /* Input field for nickname */
+  input[type="text"] {
+    padding: 10px;
+    font-size: 1.2em;
+    margin-top: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Add some margin to components */
+  .home, .nickname, .game, .leaderboard {
+    margin-top: 20px;
+  }
+  
+  /* Style for the logo/icon */
+  .icon {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
+  
