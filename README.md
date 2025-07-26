@@ -67,4 +67,7 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
+<p align="center">
+  <img src="./demo.gif" width="600" alt="Secure Code Trainer Demo"/>
+</p>
 
