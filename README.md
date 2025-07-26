@@ -67,8 +67,4 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-## 👤 Author
 
-**Radowanul Haque**  
-PhD Researcher in Software Security  
-[GitHub Profile](https://github.com/Radowan98)
